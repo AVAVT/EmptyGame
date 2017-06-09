@@ -31,7 +31,6 @@ var preload = function(){
 var create = function(){
   Nakama.game.physics.startSystem(Phaser.Physics.ARCADE);
   Nakama.keyboard = Nakama.game.input.keyboard;
-  alert('yo!');
 }
 
 // update game state each frame
